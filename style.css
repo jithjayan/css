@@ -10,4 +10,123 @@
     text-decoration-color:rgb(16, 78, 16) ;
     text-decoration-thickness:5px ;
     text-shadow:4px 4px 2px rgb(18, 161, 102),0 0 2px rgb(6, 14, 6);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.a3{
+    /* display:none; */
+    /* visibility: hidden; */
+}
+
+.main{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+
+}
+.sub{
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 100px;
+
+
+
+}
+
+    
+  
+.photo{
+    position: relative;
+}
+.topleft{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: rgb(76, 86, 95);
+  }
+.topright{
+    position: absolute;
+    top: 8px;
+    right:1150px;
+    font-size: 18px;
+    color: rgb(76, 86, 95);
+
+  }
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: rgb(76, 86, 95);
+  }
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 1150px;
+    font-size: 18px;  
+    color: rgb(76, 86, 95);
+ }
+ .center {
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+  }
+.s1{
+    background-color: red;
+    height: 400px;
+    width: 400px
+ } 
+ .s2{
+    position: relative;
+    background-color: rgb(15, 71, 25);
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 100px;
+ }  
+ .s3{
+    position: relative;
+    background-color: rgb(11, 10, 117);
+    height: 100px;
+    width: 100px;
+    left: 50px;
+    top: 50px;
+} 
+.sb1{
+    position: relative;
+    margin-top: 10px;
+    background-color: rgb(29, 119, 197);
+    height: 400px;
+    width: 400px;
+}
+.sb2{
+    position: relative;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    top: 0px;
+    left:0px;
+
+}
+.sb3{
+    position: absolute;
+    background-color: rgb(197, 31, 31);
+    height: 250px;
+    width: 250px;
+    bottom: 0px;
+   right: 0px;
+   border: 2px solid black;
+}
+
+  
+
+
+  
+
+    
