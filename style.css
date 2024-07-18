@@ -187,7 +187,40 @@ a:active{
     width: 40px;
     text-align: center;
   } 
+  .d1{
+    grid-area:a1;
+  }
+  .d2{grid-area: a2;}
+  .d3{grid-area: a3;}
+  .d4{grid-area: a4;}
+  .d5{grid-area: a5;}
+.grid{
+    display:grid;
+    grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+    'a2 a3 a3 a3 a4 a4 '
+    'a2 a5 a5 a5 a5 a5';
+    height: 400px;
+    grid-template-columns: auto auto ;
+    background-color: #2196F3;
+    padding: 7px;
+    gap: 7px;
 
+    
+  }
+  .grid>div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+   
+  }
+  /* .d1{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+  } */
   
 
 
