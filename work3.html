@@ -10,40 +10,88 @@
       .sub{grid-area: sub;}
       .img{grid-area: img;}
       .msg{grid-area: msg;}
+      .button{grid-area: button;}
+
 
      .main{
         display: grid;
+      
         grid-template-areas: 'head head head head nav nav'
         'sub sub sub sub img img '
-        'msg msg msg msg img img';
+        'msg msg msg msg img img'
+        'button button button button img img'
+        ;
+         border: 1px solid black;
         background-color: antiquewhite;
-        padding: 10px;
+
      } 
      .head{
-        background-color: aqua;
+        background-color: rgb(39, 77, 43);
+        text-align: center;
+        color: rgb(4, 44, 11);
      }
      .nav{
-        background-color: blue;
+        background-color: rgb(194, 197, 165);
+        text-align: center;
+        padding-top: 20px;
+        overflow: hidden;
+        text-decoration: none;
+        color: blueviolet;
+        display: flex;
+        justify-content: space-around;
+        font-size: x-large;
+     }
+     .nav a{
+      text-decoration: none;
      }
      .sub{
-        background-color: yellowgreen;
+        background-color: rgb(202, 202, 202);
      }
      .img{
          background-color: rgb(35, 104, 62);
+         
      } 
+     img{filter: contrast(180%);}
+   
      .msg{
-        background-color: teal;
+        background-color: rgb(33, 199, 199);
      }
+     .button{
+     display: flex;
+      background-color: springgreen;
 
-    </style>
+     }
+     
+     .b1{
+      background-color: rgb(53, 140, 143);
+      width: 50%;
+      text-align: center;
+
+     }
+     .b2{
+      background-color: burlywood;
+      width: 50%;
+      text-align: center;
+          
+     }
+     img{
+
+         width: 100%;      
+     }
+   
+
+
+    </style>   
 </head>
 <body>
     <div class="main">
-    <div class="head">head</div>
-    <div class="nav">nav</div>
-    <div class="sub">sub</div>
-     <div class="img">img</div>
-     <div class="msg">msg</div>
+    <div class="head"><b><h2>Web Diary</h2></b></div>
+    <div class="nav"><a href="">HOME</a> <a href="">ABOUT</a> <a href="">CONTACT</a></div>
+    <div class="sub"> <h2> CSS grid example</h2> <p></p>
     </div>
+     <div class="img"> <img src="download.jpeg" alt=""></div>
+     <div class="msg"><p>"Lorem ipsum dolor sit amt"</p></div>
+     <div class="button"> <div class="b1">Read more</div> <div class="b2">View all</div></div>
+    </div>  
 </body>
 </html>
