@@ -74,13 +74,33 @@
       text-align: center;
           
      }
+     * {
+  box-sizing: border-box;
+}
      img{
 
          width: 100%;      
      }
    
-
-
+   .Box{
+        
+   }
+   .box1{ 
+      float: left;
+  width: 25%;
+  padding: 20px;
+   }
+   @media screen and (max-width: 992px) {
+  .box1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .box1 {
+    width: 100%;
+  }
+}
+</style>
     </style>   
 </head>
 <body>
@@ -92,6 +112,14 @@
      <div class="img"> <img src="download.jpeg" alt=""></div>
      <div class="msg"><p>"Lorem ipsum dolor sit amt"</p></div>
      <div class="button"> <div class="b1">Read more</div> <div class="b2">View all</div></div>
-    </div>  
+    </div>
+    
+    <div class="BOX">
+      <div class="box1" style="background-color: aquamarine;"> </div>
+      <div class="box1" style="background-color: rgb(105, 218, 180);"></div>
+      <div class="box1" style="background-color: rgb(43, 100, 81);"></div>
+      <div class="box1" style="background-color: rgb(20, 49, 39);"></div>
+
+    </div>
 </body>
 </html>
