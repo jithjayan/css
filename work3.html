@@ -46,6 +46,7 @@
      }
      .sub{
         background-color: rgb(202, 202, 202);
+        font-size: 2vw;
      }
      .img{
          background-color: rgb(35, 104, 62);
@@ -74,17 +75,13 @@
       text-align: center;
           
      }
-     * {
+     /* * {
   box-sizing: border-box;
-}
+} */
      img{
 
          width: 100%;      
      }
-   
-   .Box{
-        
-   }
    .box1{ 
       float: left;
   width: 25%;
@@ -100,7 +97,22 @@
     width: 100%;
   }
 }
-</style>
+@media screen and (max-width: 600px) {
+  .main{
+     
+      
+        grid-template-areas: 'head head head head' 
+        'nav nav nav nav'
+        'sub sub sub sub' 
+        'img img img img'
+        'msg msg msg msg'
+        'button button button button';
+        grid-template-rows: 60px 60px 270px 250px 100px 100px;
+
+     } 
+  
+}
+
     </style>   
 </head>
 <body>
